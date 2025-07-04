@@ -115,6 +115,9 @@ AutoPPTX/
 ├── tests/                # Unit tests
 ├── pyproject.toml        # Build & packaging configuration
 ├── MANIFEST.in           # Packaging resource includes
+├── requirements.txt      # Python dependencies list
+├── setup.py              # Legacy setuptools build script
+├── .gitignore            # Git ignore rules
 ├── LICENSE               # MIT License
 └── README.md             # Project documentation
 ```
