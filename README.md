@@ -101,7 +101,7 @@ main(
 
 ## Project Structure
 
-```
+```plaintext
 AutoPPTX/
 ├── autopptx/             # 📦 Main Python package
 │   ├── Text/             # Text replacement & style
@@ -113,6 +113,7 @@ AutoPPTX/
 ├── data/                 # Example JSON and PPTX templates
 ├── assets/               # README media (GIFs, images)
 ├── tests/                # Unit tests
+├── env.sh                # Environment setup script
 ├── pyproject.toml        # Build & packaging configuration
 ├── MANIFEST.in           # Packaging resource includes
 ├── requirements.txt      # Python dependencies list
@@ -120,7 +121,6 @@ AutoPPTX/
 ├── .gitignore            # Git ignore rules
 ├── LICENSE               # MIT License
 └── README.md             # Project documentation
-```
 
 ---
 
