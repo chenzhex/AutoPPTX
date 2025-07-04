@@ -103,18 +103,20 @@ main(
 
 ```
 AutoPPTX/
-├── Text/         # Text placeholder handlers and styles
-├── Image/        # Image placeholder handlers and layout
-├── Table/        # Table placeholder handlers and styles
-├── Type/         # Placeholder type detection utilities
-├── View/         # View extracted text, images, and table contents
-├── core/         # Main runner for executing generation logic
-├── data/         # Sample templates and input/output files
-├── tests/        # Unit tests
-├── setup.py      # Package configuration
-├── LICENSE       # MIT License
-├── pyproject.toml# Build backend (optional)
-└── README.md     # This documentation file
+├── autopptx/             # 📦 Main Python package
+│   ├── Text/             # Text replacement & style
+│   ├── Image/            # Image replacement & layout
+│   ├── Table/            # Table replacement & formatting
+│   ├── Type/             # Placeholder type detection
+│   ├── View/             # Slide viewer tools
+│   └── core/             # CLI runner entry point
+├── data/                 # Example JSON and PPTX templates
+├── assets/               # README media (GIFs, images)
+├── tests/                # Unit tests
+├── pyproject.toml        # Build & packaging configuration
+├── MANIFEST.in           # Packaging resource includes
+├── LICENSE               # MIT License
+└── README.md             # Project documentation
 ```
 
 ---
