@@ -101,7 +101,7 @@ main(
 
 ## Project Structure
 
-```plaintext
+```
 AutoPPTX/
 ├── autopptx/             # 📦 Main Python package
 │   ├── Text/             # Text replacement & style
@@ -121,6 +121,7 @@ AutoPPTX/
 ├── .gitignore            # Git ignore rules
 ├── LICENSE               # MIT License
 └── README.md             # Project documentation
+```
 
 ---
 
