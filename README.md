@@ -1,6 +1,6 @@
 # AutoPPTX
 
-![alt text](./assets/image.png)
+![alt text](https://github.com/chenzhex/AutoPPTX/blob/main/assets/image.png)
 
 **AutoPPTX** is a Python toolkit for automated editing of PowerPoint templates using the [`python-pptx`](https://python-pptx.readthedocs.io/) library.  
 It is designed for data scientists, researchers, and business analysts who want to automate slide generation from structured data such as JSON files.  
@@ -31,7 +31,7 @@ It is designed for data scientists, researchers, and business analysts who want 
 
 The following animation demonstrates how AutoPPTX replaces placeholders and styles text, images, and tables based on JSON input:
 
-![AutoPPTX Demo](./assets/autopptx_demo.gif)
+![AutoPPTX Demo](https://github.com/chenzhex/AutoPPTX/blob/main/assets/autopptx_demo.gif)
 
 ---
 
