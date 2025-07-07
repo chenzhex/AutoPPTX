@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A Python tool for automated editing of PowerPoint templates using python-pptx"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "MIT"
+license = {text = "MIT"}
 
 authors = [
   {name = "Chenzhe", email = "chenzhe0_0@163.com"},
