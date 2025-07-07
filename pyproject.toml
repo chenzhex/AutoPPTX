@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "autopptx"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Python tool for automated editing of PowerPoint templates using python-pptx"
 readme = "README.md"
 requires-python = ">=3.10"
