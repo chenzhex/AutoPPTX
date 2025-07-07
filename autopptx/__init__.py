@@ -1,5 +1,5 @@
 # AutoPPTX package metadata
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "chenzhe"
 __email__ = "chenzhe0_0@163.com"
 __license__ = "MIT"
