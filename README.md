@@ -31,7 +31,7 @@ It is designed for data scientists, researchers, and business analysts who want 
 
 The following animation demonstrates how AutoPPTX replaces placeholders and styles text, images, and tables based on JSON input:
 
-[![AutoPPTX Demo](https://raw.githubusercontent.com/chenzhex/AutoPPTX/main/assets/autopptx_demo.jpg)](https://github.com/chenzhex/AutoPPTX/assets/autopptx_demo.gif)
+[![AutoPPTX Demo](https://raw.githubusercontent.com/chenzhex/AutoPPTX/main/assets/autopptx_demo.jpg)](https://raw.githubusercontent.com/chenzhex/AutoPPTX/main/assets/autopptx_demo.gif)
 
 ---
 
