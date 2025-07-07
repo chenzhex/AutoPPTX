@@ -8,7 +8,9 @@ recursive-include autopptx *.py
 
 # Include example and asset files
 recursive-include data *
-recursive-include assets *
+
+# Remove or comment this line
+# recursive-include assets *
 
 # Exclude tests and development leftovers
 prune tests
