@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A Python tool for automated editing of PowerPoint templates using python-pptx"
 readme = "README.md"
 requires-python = ">=3.10"
-license = {text = "MIT"}
+license = "MIT"
 
 authors = [
   {name = "Chenzhe", email = "chenzhe0_0@163.com"},
@@ -33,14 +33,17 @@ dependencies = [
   "lxml>=5.3.1"
 ]
 
+[project.optional-dependencies]
+dev = ["pytest", "black", "coverage", "build", "twine"]
+
 [project.urls]
 Homepage = "https://github.com/chenzhex/AutoPPTX"
 Documentation = "https://github.com/chenzhex/AutoPPTX#readme"
 Repository = "https://github.com/chenzhex/AutoPPTX"
 Issues = "https://github.com/chenzhex/AutoPPTX/issues"
 
-[tool.setuptools.packages.find]
-where = ["autopptx"]
-
 [tool.setuptools]
 include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
