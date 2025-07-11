@@ -1,9 +1,11 @@
 ---
-title: "AutoPPTX: Automated editing of PowerPoint templates using Python"
+title: "AutoPPTX: Automated editing of PowerPoint templates using Python for Educational and Teaching Purposes"
 tags:
   - Python
   - PowerPoint
   - Automation
+  - Education
+  - Teaching
   - Template editing
   - Document generation
 authors:
@@ -21,32 +23,32 @@ bibliography: paper.bib
 
 # Summary
 
-**AutoPPTX** is a Python package for automating the creation and styling of PowerPoint presentations from structured input data. Built on top of the widely used [`python-pptx`](https://python-pptx.readthedocs.io/) library [@python-pptx], it provides a streamlined and modular API for dynamically editing `.pptx` templates.
+**AutoPPTX** is a Python package designed to automate the creation and styling of PowerPoint presentations from structured input data, tailored especially for educational and teaching environments. Built on top of the widely used [`python-pptx`](https://python-pptx.readthedocs.io/) library [@python-pptx], it offers a modular API to dynamically edit `.pptx` templates, facilitating rapid generation of instructional materials.
 
-The package supports automated replacement of placeholders with text, images, and tables, and enables consistent styling across slides. AutoPPTX is particularly useful for researchers, analysts, and educators who need to generate reproducible, data-driven slide decks for reporting or presentation.
+This package enables educators, trainers, and instructional designers to efficiently produce consistent, data-driven slide decks with minimal manual effort. By automating the replacement and styling of placeholders—text, images, and tables—AutoPPTX supports reproducible and scalable creation of teaching presentations and lecture materials.
 
 # Statement of Need
 
-While formats like LaTeX Beamer support programmatic slide generation, `.pptx` remains the de facto standard in business, education, and government. However, automating `.pptx` slides with fine-grained layout control remains a challenge due to the complexity of the format and lack of tooling.
+PowerPoint (`.pptx`) remains the dominant format for educational presentations worldwide. However, educators often spend significant time manually updating and styling slides to reflect new data, lesson plans, or curricula. Unlike LaTeX Beamer, which allows programmatic slide creation mainly for academic publishing, `.pptx` lacks robust automation tools tailored for teaching workflows.
 
-AutoPPTX addresses this gap by:
+AutoPPTX addresses this need by:
 
-- Automating content filling for text, image, and table placeholders.
-- Extracting and applying consistent visual styles (e.g., fonts, colors, alignments).
-- Enabling reproducible slide generation through both Python and command-line interfaces.
-- Integrating smoothly into Python-based data pipelines.
+- Automating the filling of various placeholder types (text, images, tables) within PowerPoint templates.
+- Extracting and applying consistent visual styles such as fonts, colors, and alignments to maintain professional and uniform slide decks.
+- Offering both command-line and Python APIs for seamless integration into lesson preparation and educational content pipelines.
+- Reducing manual workload and human error in slide generation, thereby allowing educators to focus more on content quality and pedagogy.
 
-By providing a programmatic way to generate clean, styled slides from structured input, AutoPPTX significantly reduces manual workload and promotes consistency.
+By enabling scalable and reproducible slide deck generation, AutoPPTX empowers educators to deliver high-quality presentations with less effort, fostering better teaching experiences and learning outcomes.
 
 # Functionality
 
-AutoPPTX offers the following features:
+AutoPPTX provides the following features:
 
-- **Multi-type placeholder replacement**: Replace titles, text boxes, images, and tables from a structured JSON input.
-- **Styling extraction and transfer**: Extract font, alignment, and layout styles from template shapes and apply them programmatically.
-- **Placeholder detection**: Automatically classify shape types (e.g., title, image, table).
-- **Modular architecture**: Organized into separate modules for text, image, table, type detection, and CLI runner.
-- **Developer friendly**: Codebase adheres to [PEP8](https://peps.python.org/pep-0008/) and is formatted using [black](https://black.readthedocs.io/).
+- **Multi-type placeholder replacement**: Replace titles, text boxes, images, and tables from structured JSON input tailored to educational content.
+- **Styling extraction and transfer**: Capture font, alignment, and layout styles from templates and apply them programmatically for consistent appearance.
+- **Placeholder detection**: Automatically identify placeholder types (e.g., title, image, table) to support flexible template designs.
+- **Modular architecture**: Components are organized into distinct modules for text, image, table handling, type detection, and command-line interface.
+- **Developer friendly**: The codebase conforms to [PEP8](https://peps.python.org/pep-0008/) standards and uses [black](https://black.readthedocs.io/) for formatting, facilitating maintainability.
 
 # Installation
 
@@ -79,19 +81,19 @@ main(
 
 # Figures
 
-AutoPPTX also supports visualization of extracted content using utility functions in the `View` module. Example output slides can be previewed in the [project repository](https://github.com/chenzhex/AutoPPTX#readme).
+AutoPPTX supports visualization of extracted content through utilities in the `View` module. Example teaching slides generated by AutoPPTX can be previewed in the [project repository](https://github.com/chenzhex/AutoPPTX#readme).
 
-![Figure 1: Example slide generated by AutoPPTX.](./assets/autopptx_demo.gif)
+![Figure 1: Example teaching slide generated by AutoPPTX.](./assets/autopptx_demo.gif)
 
 # Acknowledgements
 
-This project builds on the foundational work of `python-pptx` by Scanny and is motivated by practical needs in data reporting workflows. The author also acknowledges feedback and suggestions from early users and contributors.
+This project builds upon the foundational work of `python-pptx` by Scanny and was inspired by the practical challenges faced by educators and trainers in preparing high-quality, data-driven presentations. The author appreciates feedback from early adopters and contributors.
 
 # Availability
 
-The AutoPPTX toolkit is fully open-source and available at:
+AutoPPTX is fully open-source and available at:
 
-- **GitHub repository**: [https://github.com/chenzhex/AutoPPTX](https://github.com/chenzhex/AutoPPTX)  
-- **PyPI package**: [https://pypi.org/project/autopptx](https://pypi.org/project/autopptx)
+* **GitHub repository**: [https://github.com/chenzhex/AutoPPTX](https://github.com/chenzhex/AutoPPTX)
+* **PyPI package**: [https://pypi.org/project/autopptx](https://pypi.org/project/autopptx)
 
 # References
