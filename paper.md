@@ -29,16 +29,18 @@ This package enables educators, trainers, and instructional designers to efficie
 
 # Statement of Need
 
-PowerPoint (`.pptx`) remains the dominant format for educational presentations worldwide. However, educators often spend significant time manually updating and styling slides to reflect new data, lesson plans, or curricula. Unlike LaTeX Beamer, which allows programmatic slide creation mainly for academic publishing, `.pptx` lacks robust automation tools tailored for teaching workflows.
+PowerPoint (`.pptx`) remains the dominant format for educational presentations worldwide, used extensively by teachers, trainers, and academic institutions. However, educators often spend significant time manually updating, formatting, and customizing slides to incorporate new data, lesson plans, and evolving curricula. Unlike LaTeX Beamer, which supports programmatic slide creation primarily for academic publishing, `.pptx` lacks widely accessible and robust automation tools tailored to the diverse and dynamic needs of teaching workflows.
 
-AutoPPTX addresses this need by:
+AutoPPTX addresses these challenges by:
 
-- Automating the filling of various placeholder types (text, images, tables) within PowerPoint templates.
-- Extracting and applying consistent visual styles such as fonts, colors, and alignments to maintain professional and uniform slide decks.
-- Offering both command-line and Python APIs for seamless integration into lesson preparation and educational content pipelines.
-- Reducing manual workload and human error in slide generation, thereby allowing educators to focus more on content quality and pedagogy.
+- Automating the filling of multiple placeholder types (text, images, tables) within PowerPoint templates, enabling rapid content updates aligned with lesson revisions or student feedback.
+- Extracting and applying consistent visual styles—such as fonts, colors, alignments, and layouts—to maintain professional, uniform, and accessible slide decks that adhere to institutional or pedagogical standards.
+- Providing both command-line and Python APIs for seamless integration into lesson preparation pipelines, enabling educators to generate personalized or adaptive learning materials at scale.
+- Minimizing manual workload and reducing human errors in slide creation, allowing educators to dedicate more time to pedagogy, student engagement, and curriculum development.
+- Supporting reproducible and scalable slide generation that facilitates sharing, versioning, and collaborative development of teaching resources across departments and institutions.
+- Enhancing accessibility by enabling consistent application of design elements that improve readability and comprehension for diverse learner groups, including those with visual impairments.
 
-By enabling scalable and reproducible slide deck generation, AutoPPTX empowers educators to deliver high-quality presentations with less effort, fostering better teaching experiences and learning outcomes.
+By enabling efficient, scalable, and reproducible slide deck generation, AutoPPTX empowers educators and educational content creators to deliver high-quality presentations with greater ease and flexibility. This promotes improved teaching experiences, fosters learner engagement, and supports diverse educational scenarios—from classroom lectures and workshops to online courses and institutional training programs.
 
 # Functionality
 
